@@ -1,0 +1,627 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+	body
+	{
+		background-image:url(backgro.png);
+		background-repeat: no-repeat;
+		width: 100%;
+		
+	}
+	
+	h2
+	{
+		font-family:Nunito;
+font-size:36px;
+color:white;
+	}
+	
+	nav
+{
+width:100%;
+float:left;
+height:80px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:row;
+	margin-top: 50px;
+	
+}
+
+a
+{
+text-decoration:none;
+color:white;
+font-size:16px;
+width:100px;
+text-align:center;
+padding:20px 0px;
+float:left;
+font-family: nunito;
+	
+}
+	a:hover {
+		cursor: pointer;
+		font-weight: 900;
+	}
+	
+	h1
+	{
+	    font-family: nunito;
+		color:white;
+		display:flex;
+justify-content:space-around;
+align-items:center;
+		margin-top: 250px;
+		margin-bottom: 0px;
+	font-size:64px;
+		}
+	
+	p
+	{
+		font-family:Baskerville Old Face;
+		color:white;
+		display:flex;
+justify-content:space-around;
+align-items:center;
+		margin-top:20px;
+	font-size:30px;
+	}
+
+
+	.hover {
+		padding-left: 570px;
+		margin-top: 150px;
+		font-size: 46px;		
+line-height:1.2em;
+color:rgb(255, 255, 255);
+text-shadow:
+      0 0 rgb(255, 255, 255),
+	  0 2.2em #1095c1;
+ overflow:hidden;
+ transition: 1s;
+ cursor:pointer;
+ font-family:sans-serif;
+ }
+ 
+	.hover:hover {
+	text-shadow:
+	     0 -2.2em rgb(255, 255, 255),
+		 0 0 #1095c1;
+	}  
+	
+	.signin {
+		
+		height: 400px;
+		width: 50%;
+		color:white;
+		font-family:nunito;
+		font-size:32px;
+		padding-top: 170px;
+		padding-left: 250px;
+	}
+	
+	.container {
+		width:500px;
+        height:400px;
+        float:left;
+		border:1px solid grey;
+		border-radius: 10px;
+overflow:hidden;
+position:absolute;
+		background: #16ADCA;
+		box-shadow: 7px 7px 20px 5px black;
+	
+	}
+	.container h3 {
+		display:flex;
+        justify-content:space-around;
+        align-items:center;
+		padding: 0px;
+		
+	}  
+   
+	.container p {
+		font-family: nunito;
+	}
+	
+	.button1 {
+		text-decoration:none;
+		display:flex;
+        justify-content:space-around;
+        align-items:center;
+		color:#112328;
+		cursor: pointer;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	}
+	
+	.button1:hover {
+	text-shadow:
+	     0 -0.03em rgb(255, 255, 255)
+		 
+	}  
+	
+	.img1 {
+		float: left;
+		padding-left: 400px;
+	}
+	
+	pre {
+		color: white;
+		padding-left:80px;
+		padding-top: 80px;
+		font-family: nunito;
+		font-size: 30px;
+	}
+	.book1 {
+			height: 400px;
+		width: 100%;
+		color:white;
+		font-family:nunito;
+		font-size:20px;
+		padding-top: 20px;
+		}
+	
+		.para {
+		display: flex;
+	    padding:60px;
+		padding-left: 300px;
+	}
+	
+	
+		
+		.para p1 {
+			padding : 20px;
+		}
+		.para1 {
+		display: flex;
+		padding-left: 300px;
+			padding-top:40px;
+		
+	}
+	
+		p1 {
+		background-color: #103a38;
+		box-shadow: 5px 5px 20px 3px black;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		padding-top: 30px;
+	}
+	
+	p1:hover {
+		cursor: pointer;
+		background-color: #1a4f4b;
+	}
+	
+	p2 {
+		background-color: #103a38;
+		box-shadow: 7px 7px 20px 5px black;
+		padding:30px;
+	}
+	
+	p2:hover {
+		cursor:pointer;
+		background-color: #1a4f4b;
+	}
+	
+	
+	.img2 {
+		width:100%;
+		
+	}
+	
+	.statement {
+		background-color: #112328;
+		height: 410px;
+		width:1520px;
+	}
+	
+	abbr {
+		float: left;
+		padding-top:290px;
+		padding-left: 270px;
+		font-family: Nunito;
+		color: white;
+		font-size: 30px;
+	}
+	
+	abbr1 {
+		float: left;
+		padding-top:0px;
+		padding-left: 450px;
+		font-family: Nunito;
+		color: white;
+		font-size: 16px;
+	}
+	
+	#contact {
+		width:1520px;
+		height: 320px;
+		background: #112328;
+	}
+	
+
+	
+	.top-left {
+  position: absolute;
+  top: 3060px;
+  left: 80px;
+		color: white;
+		font-family: nunito;
+		font-size: 26px;
+	}
+	
+	p3 {
+		 position: absolute;
+  top: 3100px;
+  left: 80px;
+		color: white;
+		font-family: nunito;
+		font-size: 16px;
+		text-align: left;
+	}
+	
+	.top-right {
+  position: absolute;
+  top: 3060px;
+  left: 980px;
+		color: white;
+		font-family: nunito;
+		font-size: 26px;
+	}
+	
+	p4 {
+		 position: absolute;
+  top: 3100px;
+  left: 980px;
+		color: white;
+		font-family: nunito;
+		font-size: 16px;
+		text-align: left;
+	}
+	
+	.bottom {
+  position: absolute;
+  top: 3160px;
+  left: 980px;
+		color: white;
+		font-family: nunito;
+		font-size: 26px; }
+	
+	.booksection {
+		height: 500px;
+		display:flex;
+        justify-content:space-around;
+        align-items:center;
+		transition-duration: 0.1s;
+		cursor: pointer;
+	}
+	
+	
+	.img2 {
+		background-image:url("../../1x/imggg.png");
+		width:1520px;
+		height: 200px;
+		padding-top: 200px;
+	} 
+	
+	.books1 {
+		float: left;
+		padding-left: 60px;
+		cursor: pointer;
+	}
+	
+	
+	
+	.container1 {
+		background-color: #FFFFFF;
+		opacity: 90%;
+		float:left;
+		width:255px;
+		height: 390px;
+		padding-top: 30px;
+		padding-left: 30px;
+		border-radius: 30px;
+		box-shadow: 7px 7px 20px 5px black;
+		cursor: pointer;
+  transition: transform .2s;
+  margin: 0 auto;
+	}
+	
+	.container1:hover {
+		transform: scale(1.1);
+	}
+	
+	.cont1 {
+		float: left;
+		padding-top:20px;
+		padding-right: 20px;
+		
+	}
+	
+	p5 {
+		color: black;
+		font-family: nunito;
+		font-size: 30px;
+		
+	}
+	
+	p6 {
+		color:#333333;
+		font-family: nunito;
+		
+	}
+	
+	p7 {
+		font-size: 10px;
+		font-family: nunito;
+	 }
+	
+	
+	.books2 {
+		float: left;
+		padding-left:80px;
+	}
+	
+	.container2 {
+		background-color: #FFFFFF;
+		opacity: 90%;
+		float:left;
+		width:255px;
+		height: 390px;
+		padding-top: 30px;
+		padding-left: 30px;
+		border-radius: 30px;
+		box-shadow: 7px 7px 20px 5px black;
+		cursor: pointer;
+		 transition: transform .2s;
+  margin: 0 auto;
+	}
+	
+	.container2:hover {
+		transform: scale(1.1);
+	}
+	
+		.books3 {
+		float: left;
+		padding-left: 80px;
+	}
+	
+	.container3 {
+		background-color: #FFFFFF;
+		opacity: 90%;
+		float:left;
+		width:255px;
+		height: 390px;
+		padding-top: 30px;
+		padding-left: 30px;
+		border-radius: 30px;
+		box-shadow: 7px 7px 20px 5px black;
+		cursor: pointer;
+		 transition: transform .2s;
+  margin: 0 auto;
+	}
+	
+	.container3:hover {
+		transform: scale(1.1);
+	}
+	
+		.books4 {
+		float: left;
+		padding-left: 80px;
+			
+	}
+	
+	.container4 {
+		background-color: #FFFFFF;
+		opacity: 90%;
+		float:left;
+		width:255px;
+		height: 390px;
+		padding-top: 30px;
+		padding-left: 30px;
+		border-radius: 30px;
+		box-shadow: 7px 7px 20px 5px black;
+		cursor: pointer;
+		 transition: transform .2s;
+  margin: 0 auto;
+	}
+	
+	.container4:hover {
+		transform: scale(1.1);
+	}
+	
+	.png {
+		position: absolute;
+  top: 3200px;
+  left: 980px;
+  size: 20pt;
+	}
+	
+	@media only screen and (max-width:500px)
+	{
+		body 
+		{
+			background-image:url("../../1x/imgv.png");
+			background-repeat: no-repeat;
+		}
+		
+	
+			h2
+	{   display:flex;
+        justify-content:space-around;
+        align-items:center;
+		padding: 20px;
+		padding-left: 500px;
+	}
+		
+		nav {
+			flex-direction: column;
+			height: auto;
+		}
+		
+		a {
+			padding: 20px 0px;
+			padding-left: 500px;
+		}
+		
+		hr {
+			align-content: center;
+		}
+		
+		h1 {
+			display:flex;
+        justify-content:space-around;
+        align-items:center;
+			padding: 5px;
+		padding-left: 450px;
+			margin-top: 50px;
+		margin-bottom: 0px;
+		}
+		
+		p
+	{
+		padding-top: 10px;
+	font-size:24px;
+		padding-left: 300px;
+		height: 80px;
+		width: 100%;
+	}
+	
+	}
+	
+	</style>
+	<body>
+
+	<nav>
+<h2>VINETALE</h2>
+		
+		<a href="#"> HOME </a>
+<a href="#signin"> SIGN IN </a>
+<a href="#books"> BOOKS</a>
+<a href="#contact"> CONTACT </a>
+		<div class="search"><input type="search"></div>
+		
+	</nav>
+		
+	<hr color="#40e0d0">
+		
+	<h1>VINETALE</h1>
+	<p>Track books you’ve read. Save those you want to read. Tell your friends what’s good.</p>
+		
+	<div class="button"> <h5 class="hover">GET STARTED !</h5></div>
+		
+		<section id="signin">
+<div class="signin">
+	<div class="container">
+	<h3>SIGN IN</h3>
+	  <p>Username   :
+	  <input type="email"> </p>
+	  <p>Password   :
+			<input type="password"></p>
+		<br>
+		<div class="button1"> Log In</button></div>
+		
+		
+	</div>
+	<div class="img1">
+	<div><img src="img5.png" width="600" height="403" alt=""/></div>
+	</div>
+	
+	</div>
+	</section>
+		
+		<section id="books">
+			<div class="books">
+			<pre>VINETALE let's you...</pre>
+			
+				<div class="book1">
+				<div class="para"><p1>Keep track of every book &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+					you've ever read.</p1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<p2>Rate each book and share <br>
+						your reaction.</p2> </div>
+					<div class="para1"><p1>Show some love for your 
+						<br>favorite books, lists and review.</p1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<p2> Write and share reviews,&nbsp;&nbsp;<br>
+                     and follow friends.</p2></div>
+				</div>
+			</div>
+				<br><br>
+			<div class="booksection">
+			<div class="img2">
+			<div class="books1">
+				<div class="container1">
+				<div class="img3"><img src="img11.png" alt=""> </div>
+				<div class="cont1"><p5>Milk and Honey</p5> <br><br>
+					<p6>Rating:<img src="star.png" alt=""><br></p6>
+					<p6>Review:</p6>
+				<p7>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p7></div>
+				</div>
+				<div class="books2">
+				<div class="container2">
+				<div class="img3"><img src="img12.png" alt=""> </div>
+				<div class="cont1"><p5>The Strength In The 
+Scars</p5> <br>
+					<p6>Rating:<img src="star.png" alt=""><br></p6>
+					<p6>Review:</p6>
+				<p7>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p7></div>
+				</div></div>
+				<div class="books3">
+				<div class="container3">
+				<div class="img3"><img src="img13_1.png" alt=""> </div>
+				<div class="cont1"><p5>101 Essays</p5> <br><br>
+					<p6>Rating:<img src="star.png" alt=""><br></p6>
+					<p6>Review:</p6>
+				<p7>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard </p7></div>
+					</div></div>
+				<div class="books4">
+				<div class="container4">
+				<div class="img3"><img src="img14.png" alt=""> </div>
+				<div class="cont1"><p5>Your Soul is a River</p5> <br>
+					<p6>Rating:<img src="star.png" alt=""><br></p6>
+					<p6>Review:</p6>
+				<p7>Lorem Ipsum is simply dummy text of the printing and typesetting. </p7></div>
+				</div></div>
+				
+				</div>
+				
+				</div>
+			</div>
+			 </section>
+			
+		<section>
+		<div class="statement">
+			<abbr>Write and share reviews. Compile your own lists. Share your life in Books.</abbr>
+			<abbr1>Below are some popular reviews and lists from this week. Sign up to create your own.</abbr1>
+			</div>
+			
+		
+		</section>
+		
+		<section id="contact">
+			<div class="drop">
+				<img src="contacttt.png"  alt="contact">
+				<div class="top-left">About</div>
+				<p3>Lorem ipsum dolor sit amet, consectetur adipisicing 
+elit, sed do eiusmod tempor incididunt <br>
+ut labore dolore magna aliqua.</p3>
+				<div class="top-right">Newsletter</div>
+				<p4>Stay update with our latest</p4>
+				<div class="bottom">Follow Us</div>
+				<div class="png">
+				<img src="instagram.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="facebook_1.png" alt=""> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="twitter_1.png" alt="">
+				</div>			
+			</div>
+		
+		
+		</section>
+		
+</body>
+</html>
